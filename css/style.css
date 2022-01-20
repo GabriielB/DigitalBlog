@@ -1,0 +1,117 @@
+/* Formataçoes padrão */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-size: 1em;
+    font-family: Times, "Times New Roman", serif ;
+    background: #e6e6e6;
+}
+a{
+    text-decoration: none;
+}
+
+/* LAYOUT CABEÇALHO */
+#cabecalho{
+    background: #fcd01e;
+    text-align: center;
+    padding: 15px;
+}
+
+#logo{
+    padding: 15px;
+}
+
+#menu{
+    padding: 15px;
+}
+
+.white {
+    color: #fff;
+}
+/* formatação de titulo principal */
+h1{
+    color: #4e4e4e;
+    font-size: 3em;
+}
+h2{
+    color: #fcd01e;
+}
+h3{
+    color: #565656;
+    background-color: #CCC;
+    padding: 5px;
+}
+/* formatação de links*/
+a{
+    color: #fcd01e;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #fcd01e;
+}
+#cabecalho a:link, #cabecalho a:visited{
+    color: #fff;
+    padding: 10px 15px;
+}
+
+#cabecalho a:hover{
+    color: #fcd01e;
+    background-color: #fff;
+    text-decoration: none;
+}
+
+/* AREA PRINCIPAL */
+#area-principal{
+    width: 920px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 15px;
+} 
+
+#menu-lateral{
+    width: 240px;
+    float: right;
+   
+}
+
+#postagens {
+    width: 660px;
+    background-color: white;
+    float: left;
+}
+
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+}
+#rodape{
+    clear: both;
+    font-weight: bold;
+    text-align: center;
+}
+
+.data-postagem{
+    font-size: 0.8em;
+    border-bottom: 1px solid #bebdb7;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+    position: relative;
+    left: 5px;
+}
+
+.conteudo-lateral{
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.texto-lateral{
+    font-size :0.8em;
+    padding: 5px;
+    border-bottom: 1px solid #CCC;
+}
